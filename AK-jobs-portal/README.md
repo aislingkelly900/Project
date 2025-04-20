@@ -1,59 +1,19 @@
-# My Astro App
+# AK Jobs Portal 🌐
 
-This is a simple Astro application that demonstrates the use of components, layouts, and global styles.
+A modern job portal built with [Astro](https://astro.build/), designed to connect job seekers with employers efficiently and intuitively. This site features a responsive design, simple navigation, and sections for registration, contact, and career resources.
 
-## Project Structure
+---
 
-```
-my-astro-app
-├── src
-│   ├── components        # Contains reusable components
-│   │   └── ExampleComponent.astro
-│   ├── layouts           # Contains layout components
-│   │   └── MainLayout.astro
-│   ├── pages             # Contains page components
-│   │   └── index.astro   # Main entry point
-│   └── styles            # Contains global styles
-│       └── global.css
-├── public                # Static assets
-│   └── favicon.ico       # Favicon for the application
-├── package.json          # NPM configuration file
-├── astro.config.mjs      # Astro configuration file
-└── README.md             # Project documentation
-```
+## 🚀 Features
 
-## Getting Started
+- 🔎 **Homepage** with hero content, role summaries, and CTA
+- 📝 **Register** page for job seekers to sign up
+- 📬 **Contact Us** page with a working form
+- 💼 **Career Tips** section linking to helpful resources
+- 🧭 Responsive **navigation bar** across all pages
+- 🎨 Styled using Bootstrap 5 and custom CSS
 
-To get started with this project, follow these steps:
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd my-astro-app
-   ```
+## 🧱 Project Structure
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser and navigate to:**
-   ```
-   http://localhost:3000
-   ```
-
-## Usage
-
-- The `ExampleComponent.astro` file contains a reusable component that can be used throughout the application.
-- The `MainLayout.astro` file serves as a wrapper for the pages, allowing for consistent layout across the application.
-- The `index.astro` file is the main entry point and can be modified to include content specific to the homepage.
-- Global styles can be added in the `global.css` file.
-
-## License
-
-This project is licensed under the MIT License.
