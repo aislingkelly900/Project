@@ -13,9 +13,10 @@
     "web",
     "application"
   ],
-  "author": "Your Name",
+  "author": "Aisling Kelly",
   "license": "MIT",
   "dependencies": {
     "astro": "^5.7.3"
   }
 }
+
