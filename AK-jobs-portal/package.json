@@ -2,6 +2,7 @@
   "name": "my-astro-app",
   "version": "1.0.0",
   "description": "A simple Astro application",
+  "homepage": "https://aislingkelly900.github.io/Project",
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
@@ -17,7 +18,9 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "astro": "^2.0.0"
+    "astro": "^5.7.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
