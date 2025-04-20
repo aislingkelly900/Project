@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../styles/global.css">
+<script type="module">document.addEventListener("DOMContentLoaded",function(){document.getElementById("registerForm").addEventListener("submit",function(e){const t=document.getElementById("password").value,n=document.getElementById("confirmPassword").value;t!==n&&(e.preventDefault(),alert("Passwords do not match!"))})});
+</script></head>
+
+<section class="container my-5">
+  <h1 class="text-center mb-4">Register with AK Jobs</h1>
+  <form class="mx-auto" style="max-width: 500px;" id="registerForm">
+    <div class="mb-3">
+      <label for="fullName" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="fullName" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="emailAddress" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="emailAddress" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" required minlength="6">
+    </div>
+
+    <div class="mb-3">
+      <label for="confirmPassword" class="form-label">Confirm Password</label>
+      <input type="password" class="form-control" id="confirmPassword" required minlength="6">
+    </div>
+
+    <button type="submit" class="btn btn-success w-100">Create Account</button>
+  </form>
+</section>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <p>&copy; 2025 AK Jobs. All rights reserved.</p>
+</footer>

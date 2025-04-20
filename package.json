@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "astro",
@@ -17,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "astro": "^5.7.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
-
